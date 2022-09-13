@@ -5,8 +5,8 @@ go 1.18
 require (
 	github.com/cosmos/cosmos-sdk v0.33.0
 	github.com/tendermint/tendermint v0.31.0-dev0
-)
 
+)
 require (
 	github.com/VividCortex/gohistogram v1.0.0 // indirect
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
@@ -53,6 +53,7 @@ require (
 	google.golang.org/genproto v0.0.0-20190327125643-d831d65fe17d // indirect
 	google.golang.org/grpc v1.19.1 // indirect
 	gopkg.in/yaml.v2 v2.2.2 // indirect
+
 )
 
 replace golang.org/x/crypto => github.com/tendermint/crypto v0.0.0-20180820045704-3764759f34a5
